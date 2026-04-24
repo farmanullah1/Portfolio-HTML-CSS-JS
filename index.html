@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmanullah Ansari | Full-Stack Software Engineer</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="gradient-text">FA</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <i class="ph ph-moon theme-toggle" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hello, I'm</span>
+                    <h1 class="home__title">Farmanullah <br> <span class="gradient-text">Ansari</span></h1>
+                    <h3 class="home__role">
+                        I am a <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+                    </h3>
+                    <p class="home__description">
+                        I'm a passionate Full-Stack Software Engineer based in Pakistan, specialising in building exceptional digital experiences. I transform complex problems into elegant, performant solutions.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#contact" class="btn btn--primary">Get in Touch <i class="ph ph-paper-plane-tilt"></i></a>
+                        <a href="assets/Farmanullah%20Ansari%20CV%20-%20All.pdf" class="btn btn--outline" target="_blank">Resume <i class="ph ph-download-simple"></i></a>
+                    </div>
+                    
+                    <div class="home__social">
+                        <a href="https://github.com/farmanullah1" target="_blank" class="home__social-link"><i class="ph ph-github-logo"></i></a>
+                        <a href="https://www.linkedin.com/in/farmanullah-ansari" target="_blank" class="home__social-link"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://twitter.com/farmanullah" target="_blank" class="home__social-link"><i class="ph ph-twitter-logo"></i></a>
+                        <a href="mailto:farmanullahansari999@gmail.com" target="_blank" class="home__social-link"><i class="ph ph-envelope-simple"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__image">
+                    <div class="home__img-wrapper">
+                        <img src="assets/profile.png" alt="Farmanullah Ansari" onerror="this.src='https://ui-avatars.com/api/?name=Farmanullah+Ansari&background=random&size=512'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights & Skills Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">Why <span class="gradient-text">Work With Me</span></h2>
+                <span class="section__subtitle">My highlights and unique selling points</span>
+
+                <div class="about__grid grid">
+                    <div class="glass-card highlight-card">
+                        <i class="ph ph-code gradient-icon"></i>
+                        <h3>Clean Code</h3>
+                        <p>Readable, maintainable, and well-structured code is a priority in every project.</p>
+                    </div>
+                    <div class="glass-card highlight-card">
+                        <i class="ph ph-stack gradient-icon"></i>
+                        <h3>Modern Stack</h3>
+                        <p>Proficient in MERN, ASP.NET Core, and cloud-native technologies for full-stack delivery.</p>
+                    </div>
+                    <div class="glass-card highlight-card">
+                        <i class="ph ph-cloud-arrow-up gradient-icon"></i>
+                        <h3>Cloud-Ready</h3>
+                        <p>Deploying scalable apps on AWS with Docker, CI/CD pipelines, and DevOps practices.</p>
+                    </div>
+                    <div class="glass-card highlight-card">
+                        <i class="ph ph-users gradient-icon"></i>
+                        <h3>User-Focused</h3>
+                        <p>Fast, accessible, and intuitive interfaces stemming from empathy for users.</p>
+                    </div>
+                </div>
+
+                <div class="skills__container glass-card">
+                    <h3 class="skills__title">Tech Stack</h3>
+                    <div class="skills__groups">
+                        <div class="skills__group">
+                            <h4>Frontend</h4>
+                            <div class="skills__tags">
+                                <span>React.js</span> <span>TypeScript</span> <span>Tailwind CSS</span> <span>HTML5 / CSS3</span> <span>Framer Motion</span>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <h4>Backend</h4>
+                            <div class="skills__tags">
+                                <span>Node.js</span> <span>Express.js</span> <span>ASP.NET Core</span> <span>C#</span> <span>REST APIs</span>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <h4>Database & Cloud</h4>
+                            <div class="skills__tags">
+                                <span>MongoDB</span> <span>SQL Server</span> <span>AWS EC2</span> <span>Elastic Beanstalk</span> <span>Docker</span> <span>Linux</span>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <h4>Tools</h4>
+                            <div class="skills__tags">
+                                <span>Git & GitHub</span> <span>Power BI</span> <span>Python</span> <span>Figma</span> <span>Postman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">My <span class="gradient-text">Journey</span></h2>
+                <span class="section__subtitle">Experience & Education</span>
+
+                <div class="timeline__grid grid">
+                    <!-- Work Experience -->
+                    <div class="timeline__group">
+                        <h3 class="timeline__group-title"><i class="ph ph-briefcase"></i> Experience</h3>
+                        
+                        <div class="timeline__item">
+                            <div class="timeline__dot"></div>
+                            <h4 class="timeline__title">Web Development Intern</h4>
+                            <span class="timeline__subtitle">PS CODERS | Jul 2024 – Oct 2024</span>
+                            <ul class="timeline__list">
+                                <li>Engineered dynamic and responsive front-end interfaces using modern web technologies.</li>
+                                <li>Collaborated with teams to optimise UI/UX and improve application performance.</li>
+                                <li>Ensured cross-browser compatibility and clean code architecture.</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline__item">
+                            <div class="timeline__dot"></div>
+                            <h4 class="timeline__title">Cloud Computing Fellow</h4>
+                            <span class="timeline__subtitle">ACM UET Lahore | Jun 2024 – Aug 2024</span>
+                            <ul class="timeline__list">
+                                <li>Gained hands-on experience in cloud infrastructure, DevOps, and server management.</li>
+                                <li>Deployed scalable web applications leveraging AWS (Elastic Beanstalk, EC2).</li>
+                                <li>Implemented containerised environments using Docker and multi-container NGINX.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="timeline__group">
+                        <h3 class="timeline__group-title"><i class="ph ph-graduation-cap"></i> Education</h3>
+                        
+                        <div class="timeline__item">
+                            <div class="timeline__dot"></div>
+                            <h4 class="timeline__title">BS Software Engineering</h4>
+                            <span class="timeline__subtitle">University of Sindh | Jan 2022 – Dec 2025</span>
+                            <ul class="timeline__list">
+                                <li>Mastered core CS principles including Data Structures, OOP, and full-stack methodologies.</li>
+                                <li>Developed 'Gadd Kaam – SkillSwap Pakistan' as Final Year Project.</li>
+                                <li>Earned multiple certifications in .NET, React.js, Docker, and Cloud Fundamentals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured <span class="gradient-text">Projects</span></h2>
+                <span class="section__subtitle">Some of my recent work</span>
+
+                <div class="projects__grid grid">
+                    <!-- Project 1 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">Gadd Kaam - SkillSwap</h3>
+                            <span class="project__tech">MERN Stack</span>
+                            <p class="project__desc">Secure platform for cashless skill exchanging featuring CNIC verification and real-time trading.</p>
+                            <div class="project__links">
+                                <a href="https://gadd-kaam-skillswap-pakistan.netlify.app/" target="_blank" class="btn btn--small">Live <i class="ph ph-arrow-up-right"></i></a>
+                                <a href="https://github.com/farmanullah1/Gadd-Kaam-SkillSwap-Pakistan" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">BalanceByte</h3>
+                            <span class="project__tech">ASP.NET Core</span>
+                            <p class="project__desc">Simple mobile balance checker with smooth UI transitions for calculating total load balance.</p>
+                            <div class="project__links">
+                                <a href="https://github.com/farmanullah1/BalanceByte-ASP.NET-Core-MVC-App" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">Kurrent News</h3>
+                            <span class="project__tech">React SPA</span>
+                            <p class="project__desc">Global news SPA featuring a Triple-API fallback architecture, infinite scrolling, and dark mode.</p>
+                            <div class="project__links">
+                                <a href="https://farmanullah1.github.io/Kurrent-News-Top-Headlines-Tech-Politics-Sports/" target="_blank" class="btn btn--small">Live <i class="ph ph-arrow-up-right"></i></a>
+                                <a href="https://github.com/farmanullah1/Kurrent-News-Top-Headlines-Tech-Politics-Sports" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">iNotebook</h3>
+                            <span class="project__tech">MERN Stack</span>
+                            <p class="project__desc">Secure application for managing notes on the cloud, featuring JWT authentication and persistent storage.</p>
+                            <div class="project__links">
+                                <a href="https://farmanullah1.github.io/iNotebook/" target="_blank" class="btn btn--small">Live <i class="ph ph-arrow-up-right"></i></a>
+                                <a href="https://github.com/farmanullah1/iNotebook" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">TextUtils Studio</h3>
+                            <span class="project__tech">React.js</span>
+                            <p class="project__desc">Premium browser-based text manipulation toolkit offering 100+ formatting, extraction, and cryptography tools.</p>
+                            <div class="project__links">
+                                <a href="https://farmanullah1.github.io/TextUtils-React.js/" target="_blank" class="btn btn--small">Live <i class="ph ph-arrow-up-right"></i></a>
+                                <a href="https://github.com/farmanullah1/TextUtils-React.js" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="glass-card project-card">
+                        <div class="project__content">
+                            <h3 class="project__title">ASP.NET Core CRUD API</h3>
+                            <span class="project__tech">C# / REST API</span>
+                            <p class="project__desc">Robust REST API demonstrating repository patterns, efficient CRUD operations, and modern .NET backend practices.</p>
+                            <div class="project__links">
+                                <a href="https://github.com/farmanullah1/CRUD-App-Using-ASP-Core-Web-API" target="_blank" class="btn btn--outline btn--small"><i class="ph ph-github-logo"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Articles -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <h2 class="section__title">Continuous <span class="gradient-text">Learning</span></h2>
+                <span class="section__subtitle">Certifications & Articles</span>
+
+                <div class="ca__grid grid">
+                    <!-- Certifications -->
+                    <div class="glass-card ca__card">
+                        <h3><i class="ph ph-certificate"></i> Key Certifications</h3>
+                        <ul class="ca__list">
+                            <li><a href="https://www.udemy.com/certificate/UC-a83ae4f4-9639-4595-a11e-abc632404393/" target="_blank">React Crash Course: From Zero to Hero <span>Udemy</span></a></li>
+                            <li><a href="https://www.udemy.com/certificate/UC-0d9450f9-88c2-47c6-b833-2b4fb97af3c7/" target="_blank">Complete ASP.NET Core MVC 6 <span>Udemy</span></a></li>
+                            <li><a href="https://www.udemy.com/certificate/UC-028be2e6-316d-4352-9562-b1de9bedelde/" target="_blank">C# 12 Mastery <span>Udemy</span></a></li>
+                            <li><a href="https://www.udemy.com/certificate/UC-d45dbc33-c208-44e9-a9c4-655c96912424/" target="_blank">Docker MasterClass <span>Udemy</span></a></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/verify/FFFUSE07WB3E" target="_blank">Google Prompting Essentials <span>Google</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Articles -->
+                    <div class="glass-card ca__card">
+                        <h3><i class="ph ph-article"></i> Blog Articles</h3>
+                        <div class="article__item">
+                            <h4><a href="https://www.linkedin.com/in/farmanullah-ansari" target="_blank">Deploying Dual NGINX Servers on AWS EC2 with Docker</a></h4>
+                            <p>A deep dive into container isolation, volume mounting, and static content serving using Docker.</p>
+                            <span class="article__meta">8 min read • DevOps</span>
+                        </div>
+                        <div class="article__item">
+                            <h4><a href="https://www.linkedin.com/in/farmanullah-ansari" target="_blank">The Future of Cashless Bartering in Pakistan</a></h4>
+                            <p>How we built Gadd Kaam using the MERN stack to digitise traditional skill swapping.</p>
+                            <span class="article__meta">6 min read • MERN Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Let's <span class="gradient-text">Connect</span></h2>
+                <span class="section__subtitle">Get in touch for opportunities</span>
+
+                <div class="glass-card contact__card text-center">
+                    <p class="contact__quote">"I bring more than just code — I bring commitment, craftsmanship, and a genuine passion for building things that matter."</p>
+                    
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <i class="ph ph-envelope-simple gradient-icon"></i>
+                            <a href="mailto:farmanullahansari999@gmail.com">farmanullahansari999@gmail.com</a>
+                        </div>
+                        <div class="contact__item">
+                            <i class="ph ph-map-pin gradient-icon"></i>
+                            <span>Sindh, Pakistan — Open to remote worldwide</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__socials">
+                        <a href="https://github.com/farmanullah1" target="_blank"><i class="ph ph-github-logo"></i></a>
+                        <a href="https://www.linkedin.com/in/farmanullah-ansari" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://twitter.com/farmanullah" target="_blank"><i class="ph ph-twitter-logo"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copy">&#169; 2026 Farmanullah Ansari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
